@@ -1,0 +1,28 @@
+{
+  "name": "gpu-abstract",
+  "version": "0.1.0",
+  "description": "WebGPU Compute Shader abstraction library - write JS functions, get WGSL shaders + automatic bind group management + memory lifecycle + DevTools panel",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "test": "vitest run",
+    "lint": "eslint .",
+    "docs": "vitepress build docs",
+    "dev": "vitepress dev docs"
+  },
+  "keywords": ["webgpu", "compute", "wgsl", "gpu", "performance", "devtools"],
+  "author": "zkzWilliamzhou",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zkzWilliamzhou/gpu-abstract.git"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
